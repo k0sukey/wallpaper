@@ -1,8 +1,11 @@
 iOS向けの壁紙を配布するためのappです。
 
+Usage
+ui/setting.js の filepath を参考に、壁紙の画像を指定できます。
+
 Todo
- 1. 壁紙をフリックで前後の壁紙へ移動できるように
- 2. 壁紙を表示するときのアニメーションの種類を増やす
+1. 壁紙をフリックで前後の壁紙へ移動できるようにする
+2. 壁紙を表示するときのアニメーションの種類を増やす
 
 
 Welcome to your Appcelerator Titanium Mobile Project

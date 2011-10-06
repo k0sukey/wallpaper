@@ -400,6 +400,7 @@
 				wallpaperScrollableView.left = 0;
 				wallpaperScrollableView.height = 480;
 				wallpaperScrollableView.width = 320;
+				wallpaperScrollableView.borderRadius = 0;
 			});
 		});
 

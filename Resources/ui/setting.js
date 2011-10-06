@@ -27,9 +27,10 @@
 				width: 100
 			}
 		],
+		thumbnail: [],
 		scrolloffset: 0,
 		row: 0,
-		current: {},
+		current: 0,
 		filepath: [
 			{
 				thumbnail: 'images/thumbnail/dummy.png',

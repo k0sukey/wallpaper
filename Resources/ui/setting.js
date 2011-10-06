@@ -113,5 +113,8 @@
 			}
 		]
 	};
-	wp.ui.website = 'http://www.example.jp/';
+	wp.ui.website = {
+		title: 'example',
+		url: 'http://www.example.jp'
+	};
 })();

@@ -133,7 +133,7 @@
 			borderRadius: 16,
 			borderWidth: 4,
 			color: '#333',
-			title: 'Warau.JP',
+			title: wp.ui.website.title,
 			style: Ti.UI.iPhone.SystemButtonStyle.PLAIN
 		});
 		navigateView.add(logoButton);
@@ -144,7 +144,7 @@
 			 */
 			var websiteDialog = Ti.UI.createAlertDialog({
 				cancel: 1,
-				message: 'Warau.JPをSafariで開きます',
+				message: wp.ui.website.title + 'をSafariで開きます',
 				buttonNames: ['はい', 'いいえ']
 			});
 			websiteDialog.addEventListener('click', function(e){
@@ -152,7 +152,7 @@
 					/***
 					 * safariで開く
 					 */
-					Ti.Platform.openURL(wp.ui.website);
+					Ti.Platform.openURL(wp.ui.website.url);
 				}
 			});
 			websiteDialog.show();
